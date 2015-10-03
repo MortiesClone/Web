@@ -1,10 +1,6 @@
-.logo_position {
-  position: relative;
-  left: 50px;
-  top: 20px;
-}
 body {
   margin: 0px;
+  font-family: 'Open Sans', sans-serif;
 }
 #headholder {
   height: 60px;
@@ -22,8 +18,22 @@ a {
   color: #070707;
   text-decoration: none;
 }
+ul {
+  list-style-type: none;
+}
 ul li {
   float: right;
   padding-right: 20px;
   margin-top: -17px;
+}
+@media (max-width: 600px) {
+  #logoholder {
+    position: relative;
+    left: 0px;
+    top: 20px;
+    margin: auto;
+  }
+  ul {
+    margin-top: 45px;
+  }
 }

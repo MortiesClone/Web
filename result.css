@@ -1,0 +1,29 @@
+.logo_position {
+  position: relative;
+  left: 50px;
+  top: 20px;
+}
+body {
+  margin: 0px;
+}
+#headholder {
+  height: 60px;
+  background-color: blueviolet;
+}
+#logoholder {
+  width: 80px;
+  height: 80px;
+  background-color: orange;
+  position: relative;
+  left: 50px;
+  top: 20px;
+}
+a {
+  color: #070707;
+  text-decoration: none;
+}
+ul li {
+  float: right;
+  padding-right: 20px;
+  margin-top: -17px;
+}

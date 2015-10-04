@@ -10368,10 +10368,7 @@ $(document).ready(function(){
         	menu.show();
 			topmenu.hide();
 			menu.click(function(){
-				if($("ul#topmenu").css('display') == 'none')
-					topmenu.slideDown();
-				else if($("ul#topmenu").css('display') == 'block')
-					topmenu.slideUp();
+				topmenu.toggle();
 			});
 		}
 		else{

@@ -34,7 +34,7 @@ ul li {
     margin: auto;
   }
   ul {
-    margin-top: 40px;
+    margin-top: 0px;
     text-align: center;
     padding-left: 0px;
   }
@@ -42,5 +42,10 @@ ul li {
     padding-right: 0px;
     float: none;
     margin-top: 3px;
+  }
+  #menu {
+    text-align: center;
+    cursor: pointer;
+    margin-top: 24px;
   }
 }

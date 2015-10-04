@@ -16,16 +16,15 @@ $(document).ready(function(){
         	menu.show();
 			topmenu.hide();
 			menu.click(function(){
-					if(showed == false){
-						topmenu.slideDown();
-						showed = true;
-					}
-					else{
-						topmenu.slideUp();
-						showed = false;
-					}
-				});
+				if($("ul#topmenu").css('display') == 'none')
+					topmenu.slideDown();
+				else if($("ul#topmenu").css('display') == 'block')
+					topmenu.slideUp();
+			});
 		}
-		else{menu.hide();}
+		else{
+			menu.hide();
+			topmenu.show();
+		}
     }
 });
